@@ -40,3 +40,12 @@ npm run dev
 | RabbitMQ   | [http://localhost:15672](http://localhost:15672) |
 
 > Credențiale RabbitMQ: utilizator `tutoring`, parolă `tutoring`
+
+## Oprirea proiectului
+```bash
+# Oprește backend-ul și frontend-ul
+Ctrl+C în terminalele respective
+
+# Oprește infrastructura Docker
+docker compose down
+```
